@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Executes a function by number.
+
 echo -n "Please, press 1, 2 or 3: "
 read number
 
@@ -8,13 +10,14 @@ if [[ $number -lt 1 ]] || [[ $number -gt 3 ]] ; then
     exit
 fi
 
-
 f1() {
     echo number one
 }
+
 f2() {
     echo number two
 }
+
 f3() {
     echo number three
 }
